@@ -17,11 +17,24 @@ body{
     padding: 3px;
     text-emphasis: 5;
   }
-.card-destacados{
+.card-destacados_1{
+  font-weight: 500;
+  color: white;
+}
+.card-destacados_2{
   font-weight: 500;
   color: white;
 }
 
+.card-destacados_3{
+  font-weight: 500;
+  color: white;
+}
+
+.card-destacados_4{
+  font-weight: 500;
+  color: white;
+}
 .h3{
   color: white !important;
 font-weight: 500;
