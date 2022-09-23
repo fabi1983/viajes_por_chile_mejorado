@@ -1,3 +1,6 @@
-# viajes_por_chile_mejorado
+# viajes_por_chile_mejorado link:
 
-proximamente link a prueba en linea
+https://fabi1983.GitHub.io/viajes_por_chile_mejorado/
+
+## recuerda dejar un feedback en el formulario contacto
+
