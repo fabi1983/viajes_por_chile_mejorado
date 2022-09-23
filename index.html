@@ -20,25 +20,41 @@
 <body>
 
   <!-- navbar -->
-  <nav id="barraNav" class="navbar navbar-expand-lg ml-auto fixed-top navbar-dark bg-transparent">
+ 
+
+  <nav id="barraNav" class="navbar navbar-expand-lg fixed-top navbar-dark bg-transparent">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="assets/img/viajes.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+        <img src="assets/img/viajes.svg" width="40" height="40" class="d-inline-block align-top" alt="" loading="lazy">
         VIAJES POR CHILE</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="navbar" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#carrucel">INICIO</a>
-          <a class="nav-link active" aria-current="page" href="#quienes-somos">¿QUIENES SOMOS?</a>
-          <a class="nav-link active" aria-current="page" href="#destacados">DESTACADOS</a>
-          <a class="nav-link active" aria-current="page" href="#contacto">CONTACTO</a>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#carrucel">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#quienes-somos">¿QUIENES SOMOS?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#destacados">DESTACADOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#contacto">CONTACTO</a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
+
+
+
+
+
 
   <!-- SECCION CARRUCEL -->
   <header id="carrucel" class="container-inner">
@@ -244,7 +260,7 @@
         <div class="col-12 col-md-6 pt-4">
           <h3 class="text-uppercase">Viajes por Chile</h2>
         </div>
-        <!-- iconos -->
+        <!-- iconos  con tooltip incluidos -->
         <div class="col-12 col-md-6">
           <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube-square fa-5x mx-2" data-toggle="tooltip" data-placement="top" title="youtube"></i></a>
           
@@ -252,11 +268,11 @@
           </a>
           <a href="https://github.com/fabi1983" target="_blank"><i class="fab fa-github-square fa-5x mx-2" data-toggle="tooltip" data-placement="top" title="GitHub"></i>
           </a>
-          <a href="https://cl.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-5x mx-2" data-toggle="tooltip" data-placement="right" title="LinkedIn"></i>
+          <a href="https://cl.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-5x mx-2" data-toggle="tooltip" data-placement="top" title="LinkedIn"></i>
           </a>
-          <a href="https://twitter.com/?lang=es" target="_blank"><i class="fab fa-twitter-square fa-5x mx-2" data-toggle="tooltip" data-placement="bottom" title="Twitter"></i>
+          <a href="https://twitter.com/?lang=es" target="_blank"><i class="fab fa-twitter-square fa-5x mx-2" data-toggle="tooltip" data-placement="top" title="Twitter"></i>
           </a>
-          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-5x mx-2" data-toggle="tooltip" data-placement="left" title="Facebook"></i>
+          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-5x mx-2" data-toggle="tooltip" data-placement="top" title="Facebook"></i>
           </a>
         </div>
       </div>

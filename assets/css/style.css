@@ -3,6 +3,12 @@ body{
    font-family: 'Oxygen', sans-serif !important;
 }
 
+#barraNav a{
+    font-size: 30px;
+}
+
+
+
 #carrusel_altura img {
   height: 100vh;
 }
@@ -64,6 +70,11 @@ footer{
   /* height: 20vh; */
   background-color:   rgba(10, 153, 172, 0.796)!important;
   font-size: 17px !important;
+}
+
+footer{
+  font-family: 'Pacifico', cursive !important;
+  font-size: xx-large;
 }
 
 footer h3{
